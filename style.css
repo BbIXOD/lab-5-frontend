@@ -1,7 +1,7 @@
 .container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     min-height: 100vh;
 }
 
@@ -16,7 +16,12 @@ button {
     display: block;
 }
 
-.output-box {
-    width: 150px;
-    height: 200px;
+#output-box {
+    width: 250px;
+    height: 300px;
+}
+
+.wrong {
+    background-color: red;
+    color: white;
 }
