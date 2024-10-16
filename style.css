@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.form-block {
+    display: block;
+    padding: 20px;
+}
+
+input,
+button {
+    margin: 5px auto;
+    display: block;
+}
+
+.output-box {
+    width: 150px;
+    height: 200px;
+}
